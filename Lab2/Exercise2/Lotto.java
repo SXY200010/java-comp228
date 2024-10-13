@@ -42,7 +42,7 @@ public class Lotto
             }
             if (input.trim().equals("")) {
                 JOptionPane.showMessageDialog(null, "Input cannot be empty. Please enter a number between 3 and 27.", "Empty Input", JOptionPane.WARNING_MESSAGE);
-                continue;  // 继续循环要求输入
+                continue;
             }
             try {
                 userNumbers = Integer.parseInt(input);
