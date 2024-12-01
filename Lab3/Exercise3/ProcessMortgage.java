@@ -24,7 +24,7 @@ public class ProcessMortgage {
             else
             {
                 System.out.println("Invalid input. Please enter a numeric value for the interest rate.");
-                input.nextLine(); // Consume invalid input
+                input.nextLine();
             }
         }
 
